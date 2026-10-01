@@ -1,0 +1,39 @@
+From: Vendor Billing <billing@vendor.example>
+To: ap@acme.example
+Subject: Invoice INV-2042 due
+Date: Mon, 04 May 2026 09:12:00 -0500
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============0554507819404471192=="
+
+--===============0554507819404471192==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi,
+
+Please find invoice INV-2042 attached.
+Amount due: $1,250.00. Due date: 2026-05-15.
+
+Questions? Email jane.doe@vendor.example or call +1 (415) 555-0137.
+Card on file 4111 1111 1111 1111 for auto-pay.
+
+Thanks,
+Jane
+
+--===============0554507819404471192==
+Content-Type: text/plain
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="invoice.txt"
+MIME-Version: 1.0
+
+SW52b2ljZSBJTlYtMjA0MgpUb3RhbDogMTI1MC4wMAo=
+
+--===============0554507819404471192==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="malware.exe"
+MIME-Version: 1.0
+
+TVqQACBmYWtlIGV4ZSBieXRlcw==
+
+--===============0554507819404471192==--
