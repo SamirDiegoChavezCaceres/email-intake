@@ -8,6 +8,13 @@ about, the first mile of any "email your invoice/ticket to us" workflow.
 
 ![demo](assets/demo.gif)
 
+The demo (`scripts/demo.py`) processes the sample message in
+[`samples/invoice_email.eml`](samples/invoice_email.eml), a small invoice email
+with a couple of attachments and some PII in the body. It shows (1) the parsed
+metadata (from, subject, date), (2) the attachment scan allowing or blocking each
+file by type, (3) PII redaction reporting counts only, never the values, and (4)
+the structured fields extracted from the body.
+
 ## What it does
 
 1. **Parse** a raw `.eml` into sender, subject, date, body, and attachments
